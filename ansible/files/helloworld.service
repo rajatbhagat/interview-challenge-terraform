@@ -1,0 +1,10 @@
+[Unit]
+Description=Hello World Flask app
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/gunicorn -b 0.0.0.0:5000 -w 4 --chdir /home/opc/interview-challenge-terraform/python/ app:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
