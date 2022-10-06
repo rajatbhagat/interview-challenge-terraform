@@ -29,6 +29,7 @@ Interview Challenge to provision resources using Terraform
 1. Modify public compute instance metadata to add your ssh public key and also add public key below for grading purposes
     > ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC65bld2dmUibITLdPl9GQpHkFyHLOp8VwwyiPUT9qYOOopyW2i/EfsZeINsZSBXKpoS4dpfr9zXbR7M4QJHomhUhd9Wbpoo7fi1wfCUYYP7pL4w74ZZDVKLMoXdBvYsg1udR//efxyOlEyLd6R/Td4nSAjhwalLf9uE4uRX2+eKxPDFyY/AGALT7qiHsqp7tNQ0OvuL0CIN/z+wxBVr2zN+HFp9XPfF9cF31xBFQiRYtXHo2c0brgsJ2zNNiAKet8GOmY0djel9VEemnviRmEsVrgW+Q3upA02BtNNQZt50/mgfNLtY3aaRdB8OZ+yr9YLGQKW8hvhKOu/rbzgUYs1 rbhagat@AJTV3VGQF2.local
 1. Create `output.tf` to output public_ip of compute instance
+1. Create a modules of the different resources that you are using. Grading will also be done based on how modularised and reusable your code is.
 
 
 # Ansible
