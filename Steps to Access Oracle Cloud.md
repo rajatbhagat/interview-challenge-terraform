@@ -5,6 +5,7 @@
 1. Vist URL : `https://www.cloud.oracle.com`
 1. Enter tenancy name as `mythicsdemo4`
 1. Username: `lab_guest`
+1. Password would have been provided to you 
 1. Login should be successful and you should be shown the OCI Console Dashboard
 
 ## Setup oci-cli for the mythicsdemo4 tenancy
