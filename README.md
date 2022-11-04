@@ -1,6 +1,8 @@
 # interview-challenge-terraform
 Interview Challenge to provision resources using Terraform
 
+Clone the repository and create a new repository in your Github Profile. Add the files given here in that repository. Write your code and commit your files regularly in that repository. 
+
 # Objective
 
 1. Create a Python hello world app using Flask
